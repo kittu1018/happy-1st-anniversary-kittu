@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Anniversary Kittu 💕</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffe6eb;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #d6336c;
+    }
+
+    /* Floating Hearts */
+    .heart {
+      position: fixed;
+      width: 20px;
+      height: 20px;
+      background: red;
+      transform: rotate(45deg);
+      animation: floatUp 8s linear infinite;
+      bottom: -10%;
+      opacity: 0.7;
+    }
+    .heart:before,
+    .heart:after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: red;
+      border-radius: 50%;
+    }
+    .heart:before {
+      top: -10px;
+      left: 0;
+    }
+    .heart:after {
+      left: 10px;
+      top: 0;
+    }
+    @keyframes floatUp {
+      0% {transform: translateY(0) rotate(45deg); opacity:1;}
+      100% {transform: translateY(-100vh) rotate(45deg); opacity:0;}
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .love-letter {
+      background: #fff0f5;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      line-height: 1.8;
+    }
+
+    iframe {
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+
+    /* Countdown */
+    .countdown {
+      font-size: 1.5em;
+      text-align: center;
+      margin-top: 20px;
+      color: #b30059;
+    }
+
+    /* Hidden Surprises */
+    .surprise {
+      margin: 15px 0;
+    }
+    .surprise button {
+      width: 100%;
+      padding: 15px;
+      background: #ff4d6d;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .surprise button:hover {
+      background: #e60050;
+    }
+    .surprise-content {
+      display: none;
+      background: #fff0f5;
+      margin-top: 10px;
+      padding: 15px;
+      border-radius: 10px;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    video {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Hearts -->
+  <script>
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.className = "heart";
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = (5 + Math.random() * 5) + "s";
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 8000);
+    }
+    setInterval(createHeart, 400);
+  </script>
+
+  <!-- Welcome -->
+  <section>
+    <h1>Happy 1st Anniversary Kittu 💕</h1>
+    <p style="text-align:center;font-size:1.2em;color:#555;">
+      Forever starts here... 25 October ❤️
+    </p>
+  </section>
+
+  <!-- Gallery -->
+  <section>
+    <h2>Our Memories 📸</h2>
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Memory 1">
+      <img src="images/photo2.jpg" alt="Memory 2">
+      <img src="images/photo3.jpg" alt="Memory 3">
+      <img src="images/photo4.jpg" alt="Memory 4">
+      <img src="images/photo5.jpg" alt="Memory 5">
+      <img src="images/photo6.jpg" alt="Memory 6">
+      <img src="images/photo7.jpg" alt="Memory 7">
+    </div>
+  </section>
+
+  <!-- Love Letter -->
+  <section>
+    <h2>My Love Letter to You 💌</h2>
+    <div class="love-letter">
+      Hey meri jaan,<br><br>
+
+      Happy 1st Anniversary ❤️<br><br>
+
+      Tumhe pata hai na, main aksar sochta hoon, agar tum meri life mein na aayi hoti, toh main kitna adhura hota. Tum meri zindagi ka woh part ho jo mujhe complete karta hai. Aur sach kahun toh, tumse baat karte hi lagta hai jaise duniya ruk gayi ho aur bas main aur tum reh gaye ho.<br><br>
+
+      Mujhe tumhari wo chhoti chhoti baatein pagal kar deti hain,tumhara bina wajah hansi lena, apni baaton ko baar-baar repeat karna, ya phir kabhi bina soche seedha dil ki baat bol dena. Yehi chhoti chhoti cheezein mujhe tumse aur deeply pyaar karne lagti hain.<br><br>
+
+      Ek saal mein tumne mujhe bas ek partner hi nahi, ek best friend, ek comfort zone aur ek safe place diya hai. Tumhare saath mujhe apni zindagi ki har problem halki lagti hai, aur har khushi double.<br><br>
+
+      Main tumse ek hi promise karna chahta hoon, chahe din kitna bhi mushkil ho, chahe tum kitni bhi uljhan mein ho, main tumhara haath kabhi nahi chhodunga. Tum meri duniya ho, aur meri duniya hamesha tumhare saath hi complete hogi.<br><br>
+
+      Future mein main tumhe apni har kahani ka hero/heroine banana chahta hoon, chaahe wo random trips ho, apna chhota sa ghar ho, ya raat ke 2 baje ki Maggie. Bas tum, main, aur humari apni duniya.<br><br>
+
+      Ek saal sirf start hai meri jaan… main tumhe hamesha apni forever bana kar rakhna chahta hoon.<br><br>
+
+      Forever tumhara,<br>
+      Suar ❤️
+    </div>
+  </section>
+
+  <!-- Playlist -->
+  <section>
+    <h2>Our Songs 🎶</h2>
+    <iframe src="https://open.spotify.com/embed/playlist/4fQgJjTbktL5AoZZ4PISZ1?utm_source=generator" 
+      width="100%" height="380" frameBorder="0" allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </section>
+
+  <!-- Countdown -->
+  <section>
+    <h2>Countdown to Our Next Anniversary ⏳</h2>
+    <div class="countdown" id="countdown"></div>
+    <script>
+      const targetDate = new Date("October 25, 2026 00:00:00").getTime();
+      const countdown = document.getElementById("countdown");
+      setInterval(() => {
+        const now = new Date().getTime();
+        const diff = targetDate - now;
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const secs = Math.floor((diff % (1000 * 60)) / 1000);
+        countdown.innerHTML = `${days}d ${hours}h ${mins}m ${secs}s`;
+      }, 1000);
+    </script>
+  </section>
+
+  <!-- Hidden Surprises -->
+  <section>
+    <h2>Hidden Surprises 💖</h2>
+    <div class="surprise">
+      <button onclick="toggleSurprise(1)">💖 Surprise 1</button>
+      <div class="surprise-content" id="surprise1">
+        Do you know? You’re the best part of my day 💕
+      </div>
+    </div>
+    <div class="surprise">
+      <button onclick="toggleSurprise(2)">💖 Surprise 2</button>
+      <div class="surprise-content" id="surprise2">
+        Whenever I see you smile, the world feels perfect 😍
+      </div>
+    </div>
+    <div class="surprise">
+      <button onclick="toggleSurprise(3)">💖 Surprise 3</button>
+      <div class="surprise-content" id="surprise3">
+        You’re not just my love, you’re my safe place 🫶
+      </div>
+    </div>
+    <div class="surprise">
+      <button onclick="toggleSurprise(4)">💖 Surprise 4</button>
+      <div class="surprise-content" id="surprise4">
+        One day, I’ll call you my forever officially 💍
+      </div>
+    </div>
+    <div class="surprise">
+      <button onclick="toggleSurprise(5)">💖 Surprise 5</button>
+      <div class="surprise-content" id="surprise5">
+        <h3>The day I realised you love me ❤️</h3>
+        <video controls>
+          <source src="videos/special.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function toggleSurprise(num) {
+      const el = document.getElementById("surprise" + num);
+      el.style.display = (el.style.display === "block") ? "none" : "block";
+    }
+  </script>
+
+</body>
+</html>
